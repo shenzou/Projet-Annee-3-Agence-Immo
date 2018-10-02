@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Sejour [
+<!ELEMENT Sejour (numeroSejour, nom, numeroClient, theme, semaine, nomParking, numeroPlaceParking, immatVoiture, arrondissement,appartement+)>
+<!ELEMENT numeroSejour (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT numeroClient (#PCDATA)>
+<!ELEMENT theme (#PCDATA)>
+<!ELEMENT semaine (#PCDATA)>
+<!ELEMENT nomParking (#PCDATA)>
+<!ELEMENT numeroPlaceParking (#PCDATA)>
+<!ELEMENT immatVoiture (#PCDATA)>
+<!ELEMENT arrondissement (#PCDATA)>
+<!ELEMENT appartement (room_id, prix)>
+<!ELEMENT room_id (#PCDATA)>
+<!ELEMENT prix (#PCDATA)>
+]>
+<Sejour>
+  <numeroSejour></numeroSejour>
+  <nom></nom>
+  <numeroClient></numeroClient>
+  <theme></theme>
+  <semaine></semaine>
+  <nomParking></nomParking>
+  <numeroPlaceParking></numeroPlaceParking>
+  <immatVoiture></immatVoiture>
+  <arrondissement></arrondissement>
+  <appartement>
+    <room_id></room_id>
+    <prix></prix>
+  </appartement>
+  <appartement>
+    <room_id></room_id>
+    <prix></prix>
+  </appartement>
+  <appartement>
+    <room_id></room_id>
+    <prix></prix>
+  </appartement>
+</Sejour>

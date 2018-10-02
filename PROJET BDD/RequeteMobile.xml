@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Sejour [
+<!ELEMENT Sejour (theme,semaine,arrondissement,(numeroClient|(nom,adresse,numeroDeTel,email)))>
+<!ELEMENT theme (#PCDATA)>
+<!ELEMENT semaine (#PCDATA)>
+<!ELEMENT arrondissement (#PCDATA)>
+<!ELEMENT numeroClient (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT numeroDeTel (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+]>
+
+<Sejour>
+  <theme>Visite de la Défense</theme>
+  <semaine>14</semaine>
+  <arrondissement>16</arrondissement>
+  <nom>M. Votrenom </nom>
+  <adresse>ESILV, la Défense</adresse>
+  <numeroDeTel>0698984322</numeroDeTel>
+  <email>votrenom@votrenom.com</email>
+
+</Sejour>

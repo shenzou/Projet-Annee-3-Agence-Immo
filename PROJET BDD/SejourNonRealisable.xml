@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Sejour [
+<!ELEMENT Sejour (nom, numeroClient, theme, arrondissement, semaine, information)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT numeroClient (#PCDATA)>
+<!ELEMENT theme (#PCDATA)>
+<!ELEMENT arrondissement (#PCDATA)>
+<!ELEMENT semaine (#PCDATA)>
+<!ELEMENT information (#PCDATA)>
+]>
+<Sejour>
+<nom>M. Votrenom</nom>
+<numeroClient>1</numeroClient>
+<theme> Visite de la Défense</theme>
+<arrondissement>16</arrondissement>
+<semaine>14</semaine>
+<information>Séjour imposssible, veuillez choisir une autre date</information>
+</Sejour>

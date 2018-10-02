@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Sejour [
+<!ELEMENT Sejour (numeroSejour, numeroClient, validationSejour,numAppart)>
+<!ELEMENT numeroSejour (#PCDATA)>
+<!ELEMENT numeroClient (#PCDATA)>
+<!ELEMENT validationSejour (#PCDATA)>
+<!ELEMENT numAppart (#PCDATA)>
+]>
+<Sejour>
+  <numeroSejour>1</numeroSejour>
+  <numeroClient>1</numeroClient>
+  <validationSejour>1</validationSejour>
+  <numAppart></numAppart>
+  <numeroSejour>15</numeroSejour>
+  <numeroClient>19</numeroClient>
+  <validationSejour>1</validationSejour>
+  <numAppart>2893116</numAppart>
+</Sejour>
